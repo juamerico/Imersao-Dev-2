@@ -93,7 +93,14 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.text {
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    place-self: center !important;
+    text-align: center;
+}
+
+.text, .title {
     place-self: flex-start;
     color: #fff;
     text-shadow: 2px 2px 3px #000;

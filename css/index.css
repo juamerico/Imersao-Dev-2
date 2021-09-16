@@ -26,11 +26,18 @@ body {
     border-radius: 0 8px 8px 8px;
     padding: 3rem;
     margin: 1rem;
+    transition: 0.3s;
+
 }
 
 .text {
     place-self: flex-start;
     color: #fff;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 0.5rem 0.5rem 0.8rem #000;
     text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.container:hover {
+    transform: scale(1.03);
 }

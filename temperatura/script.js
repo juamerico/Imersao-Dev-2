@@ -16,7 +16,6 @@ function converteValor(valor, entrada, saida) {
 		resultado = valor
 	}
 
-
 	if(entrada.nextElementSibling.value === "C" && saida.nextElementSibling.value === "F" || saida.nextElementSibling.value === "C" && entrada.nextElementSibling.value === "F") {
 		resultado = (valor * 9/5) + 32
 	}
