@@ -1,0 +1,36 @@
+body {
+    background-image: url("../assets/bg.jpg");
+}
+
+.body-container {
+    display: flex;
+    margin: 0 5rem;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(100, 160, 150, 0.9);
+    border-radius: 0 8px 8px 8px;
+    padding: 3rem;
+    margin: 1rem;
+}
+
+.text {
+    place-self: flex-start;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    text-decoration: none;
+}

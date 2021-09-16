@@ -1,0 +1,115 @@
+body {
+    background-color: #3287a8;
+    background-image: url("../assets/bg.jpg");
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .form, .result {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+}
+
+.form, .result {
+    margin-top: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background-color: rgba(100, 160, 150, 0.9);
+    border-radius: 0 8px 8px 8px;
+    padding: 3rem;
+}
+
+.tiny-container {
+    width: 100%;
+    display: flex;
+}
+
+.value-input, .name-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.value-input:hover, .name-input:hover  {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: none;
+}
+
+.submit-input {
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    border: none;
+    background-color: hsl(197, 54%, 43%);
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    color: #ebf5f7;
+    transition: 0.3s;
+}
+
+.submit-input:active, .submit-input:hover {
+    background-color: hsl(197, 49%, 31%);
+    border: hsl(197, 54%, 43%) 3px 3px 0 0 ;
+}
+
+.select-menu {
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    border: none;
+    background-color: hsl(197, 54%, 43%);
+    padding: 0.5rem;
+    margin: 0.3rem 0 0.5rem 0.5rem;
+    border-radius: 3px;
+    color: #ebf5f7;
+}
+
+.select-menu:active, .select-menu:focus {
+    border: none;
+}
+
+#name {
+    margin-bottom: 1.5rem;
+}
+
+.text {
+    place-self: flex-start;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.go-back {
+    width: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.go-back:hover {
+    transform: scale(1.08);
+}
+
+.hide {
+    display: none;
+}

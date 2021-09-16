@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Médias</title>
+    </head>
+    <body>
+        <div class="body-container">
+            <form class="form" data-form>
+                <div class="container">
+                    <label class="text" for="name">Aluno(a)</label>
+                    <input required class="name-input" id="name" data-name type="text" placeholder="Nome"/>
+        
+                    <label class="text" for="um">Prova 1</label>
+                    <input required class="value-input" id="um" data-value="um" type="number" placeholder="Nota" min="0" max="10"/>
+        
+                    <label class="text" for="dois">Prova 2</label>
+                    <input required class="value-input" id="dois" data-value="dois" type="number" placeholder="Nota" min="0" max="10"/>
+        
+                    <label class="text" for="tres">Prova 3</label>
+                    <input required class="value-input" id="tres" data-value="tres" type="number" placeholder="Nota" min="0" max="10"/>
+        
+                    <label class="text" for="quatro">Prova 4</label>
+                    <input required class="value-input" id="quatro" data-value="quatro" type="number" placeholder="Nota" min="0" max="10"/>
+        
+                    <input class="submit-input" data-value="submit" type="submit"/>
+                </div>
+            </form>
+        
+            <div class="result hide" data-result="screen">
+                <div class="container">
+                    <span class="text" data-result="text"></span>
+                    <img class="go-back" data-result="goBack" src="assets/close.png" alt="Seta para a esquerda"/>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="media/script.js"></script>
+</html>
