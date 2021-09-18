@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Conversor de Moedas</title>
+    </head>
+    <body>
+        <div class="body-container">
+            <form class="container form" data-form>
+                <h1 class="text title">Conversor de Moedas</h1>
+
+                <div class="tiny-container">
+                    <input class="value-input" data-value required type="number" id="value-input" placeholder="Valor na moeda de origem"/>
+                    <select class="select-menu" data-select="menu" id="de">
+                        <option data-select="opt" value="BTC">Bitcoin</option>
+                        <option data-select="opt" value="USD">Dolar</option>
+                        <option data-select="opt" value="BRL">Real</option>
+                        <option data-select="opt" value="EUR">Euro</option>
+                    </select>
+                    <input type="submit" data-select="button" class="submit-input" value="Converter">
+                </div>
+
+                <div data-select="result" class="text hide"></div>
+                <a href="index.html"><img class="go-back" src="assets/close.png" alt="Seta para a esquerda"/></a>
+            </form>            
+            
+        </div>
+    </body>
+    <script src="moedas/script.js"></script>
+</html>
