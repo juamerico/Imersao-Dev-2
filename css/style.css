@@ -1,5 +1,7 @@
 html {
+    height: 100%;
     background-image: url("../assets/bg.jpg");
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -13,16 +15,12 @@ html {
     font-weight: bold;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .form, .result {
         display: flex;
         flex-direction: column;
         width: 30%;
     }
-}
-
-.form, .result {
-    margin-top: 2rem;
 }
 
 .container {
@@ -34,6 +32,7 @@ html {
     background-color: rgba(177, 109, 194, 0.9);
     border-radius: 0 8px 8px 8px;
     padding: 3rem;
+    margin: 2rem;
 }
 
 .tiny-container {

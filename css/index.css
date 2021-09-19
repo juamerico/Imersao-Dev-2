@@ -17,6 +17,7 @@ html {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -29,7 +30,6 @@ html {
     padding: 3rem;
     margin: 1rem;
     transition: 0.3s;
-
 }
 
 .text {
