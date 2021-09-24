@@ -31,7 +31,6 @@ function fetchAPI(origem) {
 
                 const p = document.createElement("p")
                 p.classList.add("text")
-                p.style.marginTop = "1rem";
                 const resultado = (valorDigitado.value * dados[i].high).toFixed(2)
                 p.textContent = `${dados[i].name}: ${resultado}`
                 result.appendChild(p)
@@ -48,7 +47,6 @@ function fetchAPI(origem) {
 
                 const p = document.createElement("p")
                 p.classList.add("text")
-                p.style.marginTop = "1rem";
                 const resultado = (valorDigitado.value / dados[i].high).toFixed(2)
                 p.textContent = `Bitcoin/${nomeOrigem}: ${resultado}`
                 result.appendChild(p)

@@ -109,6 +109,10 @@ html {
     text-shadow: 2px 2px 3px #000;
 }
 
+.text {
+    margin-top: 1rem;
+}
+
 .go-back {
     width: 30px;
     transition: 0.3s;
